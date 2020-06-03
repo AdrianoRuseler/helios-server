@@ -6,7 +6,6 @@ import sys
 
 import json
 import os
-os.environ["PYTHONIOENCODING"] = "utf-8"
 
 TESTING = 'test' in sys.argv
 
