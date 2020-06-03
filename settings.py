@@ -1,4 +1,5 @@
-# coding: utf-8
+#!/usr/bin/env python
+# encoding: utf-8
 
 # a massive hack to see if we're testing, in which case we use different settings
 import sys
