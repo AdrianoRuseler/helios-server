@@ -13,6 +13,7 @@ install:
   - pip install -r requirements.txt
 
 before_script:
+  - export LANG=pt_BR.UTF-8
   - psql -c 'create database helios;' -U postgres
 
 script: "python -Wall manage.py test"
