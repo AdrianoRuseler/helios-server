@@ -19,24 +19,6 @@ script: "python -Wall manage.py test"
 
 jobs:
   include:
-  - dist: trusty
+  - dist: bionic
     addons:
-      postgresql: "9.3"
-  - dist: trusty
-    addons:
-      postgresql: "9.4"
-  - dist: trusty
-    addons:
-      postgresql: "9.5"
-  - dist: trusty
-    addons:
-      postgresql: "9.6"
-  - dist: xenial
-    addons:
-      postgresql: "9.4"
-  - dist: xenial
-    addons:
-      postgresql: "9.5"
-  - dist: xenial
-    addons:
-      postgresql: "9.6"
+      postgresql: "10"
