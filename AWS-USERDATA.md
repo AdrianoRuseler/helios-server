@@ -29,7 +29,7 @@ sudo pip install virtualenv
 sudo adduser --disabled-login --quiet --gecos Helios helios
 
 sudo -i -u helios
-git clone https://github.com/benadida/helios-server.git
+git clone https://github.com/AdrianoRuseler/helios-server.git
 cd /home/helios/helios-server 
 virtualenv venv
 source venv/bin/activate
