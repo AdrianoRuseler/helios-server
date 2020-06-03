@@ -2,8 +2,6 @@
 import os
 import sys
 
-os.environ["PYTHONIOENCODING"] = "utf-8"
-    
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "settings")
 
