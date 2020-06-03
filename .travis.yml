@@ -11,4 +11,5 @@ script: "python manage.py test"
 addons:
   postgresql: "9.3"
 before_script:
+  - export LANG=pt_BR.UTF-8
   - psql -c 'create database helios;' -U postgres
